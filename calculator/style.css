@@ -1,0 +1,46 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.outer{
+  height: 100vh;
+  background: linear-gradient(pink,blue);
+}
+.outer > .inner{
+  width: 400px;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 7px rgba(0,0,0)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row{
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.row > button{
+  flex-basis: 25%;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
